@@ -5,7 +5,10 @@ def subtract(num1, num2):
 def multiplication(num1,num2):
     return num1 * num2
 def division(num1,num2):
-    return num1 / num2
+    if num2 !=0:
+        return num1 / num2
+    else:
+        print("invalid input")
 num1 = int(input("Enter the first value:"))
 num2 = int(input("Enter the second value:"))
 print("Select operation")
