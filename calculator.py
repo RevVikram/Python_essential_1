@@ -9,6 +9,7 @@ def division(num1,num2):
         return num1 / num2
     else:
         print("invalid input")
+if __name__ == '__main__':
 num1 = int(input("Enter the first value:"))
 num2 = int(input("Enter the second value:"))
 print("Select operation")
